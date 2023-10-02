@@ -1,7 +1,7 @@
 const fs = require('fs')
-const html = `
+const html = `<script>
     ${fs.readFileSync('data.js').toString()};
-    window.data = data;`
-const index = fs.readFileSync('200.html').toString()
-console.log({index})
-fs.writeFileSync('200.html', index.replace('window.data = data',html))
+    window.data = data;
+	</script>`
+const index = fs.readFileSync('index.html').toString()
+fs.writeFileSync('index.html', index.replace(/(<script>).*?(<\/script>)/gm, html))
