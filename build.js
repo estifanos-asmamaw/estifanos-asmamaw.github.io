@@ -4,4 +4,4 @@ const html = `<script>
     window.data = data;
 	</script>`
 const index = fs.readFileSync('index.html').toString()
-fs.writeFileSync('index.html', index.replace(/(<script>).*?(<\/script>)/gm, html))
+fs.writeFileSync('index.html', index.replace(/(<script>).*?(<\/script>)/gm, html).replace('<script src="/data.js"></script>',''))
