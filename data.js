@@ -1,6 +1,12 @@
 var data = {
     gallery: [
         {
+            id: 39,
+            title: "4 kilo",
+            body: "The 4-kilogram project serves as a test for the newly acquired technique I've learned, which involves creating a paper texture combined with a two-color combination. This project constitutes one of the three components I have completed.",
+            tag: "ethiopia, fantasy, photoshop, paper, texture, dualtone, 4kilo "
+        },
+        {
             id: 38,
             title: "ጨረቃ",
             body: "its been a while sice i worked on typography so i was trying out new amharic fonts and thats how i found this amazing piece called ጨረቃ , and who knows this might end up being a font so if we ever decied to make it happen ill sure share the process so stay tuned and i have made two versions of it in case it looked better in the other one.",
