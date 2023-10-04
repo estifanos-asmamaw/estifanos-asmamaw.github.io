@@ -8,4 +8,4 @@ function updateFile(file) {
 
 	fs.writeFileSync(file, index.replace(/(<script>).*?(<\/script>)/gm, html).replace('<script src="/data.js"></script>', ''))
 }
-['index.html', 'gallery/index.html', 'blog/index.html', 'projects/index.html'].map(file => updateFile(file))
+['index.html', 'gallery/index.html', 'blog/index.html', 'projects/index.html'].map(updateFile)

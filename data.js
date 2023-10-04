@@ -1,6 +1,12 @@
 var data = {
     gallery: [
         {
+            id: 40,
+            title: "Redolence",
+            body: "Redolence embodies a novel concept, intertwining the enchanting trio of captivating visuals, delightful aromas, and exquisite flavors. To symbolize this idea, I have deliberately selected the timeless charm of our traditional coffee arrangement.",
+            tag: "ethiopia, fantasy, photoshop, coffee, aesthetic, warm, traditional "
+        },
+        {
             id: 39,
             title: "4 kilo",
             body: "The 4-kilogram project serves as a test for the newly acquired technique I've learned, which involves creating a paper texture combined with a two-color combination. This project constitutes one of the three components I have completed.",
